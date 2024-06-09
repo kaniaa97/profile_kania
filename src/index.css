@@ -1,0 +1,36 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  @apply bg-gray-100;
+}
+/* Animasi teks About Me */
+.about-text-animation {
+  display: inline-block;
+  animation: slideIn 2s ease-in-out infinite;
+}
+
+@keyframes slideIn {
+  0%, 100% {
+    transform: translateX(0);
+  }
+  50% {
+    transform: translateX(10px);
+  }
+}
+
+/* Animasi teks Saya Kaniawati */
+.name-text-animation {
+  display: inline-block;
+  animation: fadeInOut 3s ease-in-out infinite;
+}
+
+@keyframes fadeInOut {
+  0%, 100% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+}
