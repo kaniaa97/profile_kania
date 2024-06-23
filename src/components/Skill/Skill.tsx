@@ -22,7 +22,7 @@ const skills = [
     name: "Gitlab",
     icon: GitlabIcon,
     color: "#FC6D26",
-    link: "https://about.gitlab.com/",
+    link: "https://gitlab.com/kania_project",
   },
   {
     name: "JavaScript",
